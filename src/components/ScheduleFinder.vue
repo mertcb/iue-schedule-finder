@@ -525,6 +525,23 @@ export default {
     };
   },
   mounted: function() {
+/*     json.courses.forEach(course=>{
+      const time = course.time
+      if(time.includes("\n")){
+        var timeArr = time.split("\n");
+        timeArr.forEach((time,index)=>{
+          switch(time){
+            case "Salı 14:20 - 15:50":
+              var times = time.split(" - ");
+              console.log(times);
+              timeArr[index] = [26,27]
+              course.time = timeArr;
+              //console.log(course.time)
+              break;
+          }
+        })
+      }
+    }) */
   },
   methods: {
     findSchedules: function() {
